@@ -202,37 +202,19 @@ var products = [
 
 // Exercise 8
 
-// var expenVariat = 0
 // for (var i = 0; i < products.length; i++) {
+  
 //   var price = products[i].variations[i].price
+//   var expenVariat = 0
 
 //   if (price >= expenVariat) {
 //     expenVariat = price
 //     console.log("Product " + products[i].id + " = " + products[i].title + " - " + products[i].variations[i].color + " (" + products[i].variations[i].price + ") ")
 //   }
+//   else if (avg == highRat) {
+//       console.log("zero")
+//     }
 // }
-
-var sum = 0
-for (var i = 0; i < products[i].reviews.length; i++) {
-  sum = sum + products[i].reviews[i].rating
-}
-
-var expProd = ""
-var highRat = 0
-
-for (var i = 0; i < products[i].reviews.length; i++) {
-  
-if (avg >= highRat) {
-  highRatProd = products[i].title
-  expProd = avg
-}
-else if (avg == highRat) {
-  console.log("zero")
-}
-
-}
-
-console.log("Highest Rated Product:", highRatProd);
 
 // Exercise 9
 
