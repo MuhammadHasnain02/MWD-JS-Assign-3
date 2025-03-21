@@ -117,14 +117,14 @@ var products = [
 
 // Exercise 1 
   
-// var userId = prompt("Enter Product ID")
+var userId = prompt("Enter Product ID")
 
-// for (var i = 0; i < products.length; i++) {
+for (var i = 0; i < products.length; i++) {
   
-//   if (products[i].id == userId) {
-//     console.log(userId , products[i])
-//   }
-// }
+  if (products[i].id == userId) {
+    console.log(userId , products[i])
+  }
+}
 
 // Exercise 2
 
